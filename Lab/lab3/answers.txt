@@ -1,0 +1,22 @@
+sort1 uses: bubble sort
+How do you know?: When data alreadys sorted, this sort use the least
+its mean that this one has a lower-bound(Omega(n))
+Among the 3 sorted algorithm only buble has lower bound
+Time(random): (5000:0.064s) (10000:0.478s) (sorted50000:21.357s)
+Time(reverse): (5000:0.078s) (10000:0.345s) (sorted50000:12.587s)
+Time(Sorted): (5000:0.010s) (10000:0.020s) (sorted50000:3.229s)
+
+sort2 uses: merge sort
+How do you know?: This one has the same amount of O and Omega. No matter how the data organized running time just slightly change.
+Compare with sort3(also has theta) that use more running time, it's must be merge sort.
+Time(random): (5000:0.011s) (10000:0.020s) (sorted50000:4.079s)
+Time(reverse): (5000:0.011s) (10000:0.20s) (sorted50000:3.975s)
+Time(Sorted): (5000:0.011s) (10000:0.021s) (sorted50000:5.015s)
+
+sort3 uses: selection sort
+How do you know?: This one has the same amount of O and Omega. No matter how the data organized running time just slightly change.
+When the number lines increase this sort take a huge(exponential) time sort compare to sort2.
+So it should be selection sort because it use a lot of time compare to sort2.
+Time(random): (5000:0.034s) (10000:0.225s) (sorted50000:9.118s)
+Time(reverse): (5000:0.038s) (10000:0.232s) (sorted50000:9.796s)
+Time(Sorted): (5000:0.034s) (10000:0.207s) (sorted50000:9.225s)

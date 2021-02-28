@@ -1,0 +1,1 @@
+SELECT birth FROM PEOPLE WHERE name is 'Emma Stone';

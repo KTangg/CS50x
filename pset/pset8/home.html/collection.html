@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+
+    <title>Mr.Rubber</title>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+        <link href="styles.css" rel="stylesheet">
+
+        <script>
+            document.addEventListener("DOMContentLoaded",function(){
+                let txt = document.querySelector('.popup');
+                let myimg = document.querySelector('.popup-img');
+                txt.addEventListener('click',function(){
+                    txt.style.visibility = 'hidden';
+                    myimg.style.visibility ='visible';
+                })
+            })
+        </script>
+
+        <table>
+            <tr>
+                <td>
+                    <a href = "https://ide-bb0e524482e646d38a20b8e9678b2e33-8080.cs50.xyz/index.html" style="color:black">HOME</a>
+                </td>
+                <td> | </td>
+                <td>
+                     <a href = "https://ide-bb0e524482e646d38a20b8e9678b2e33-8080.cs50.xyz/story.html" style="color:black">STORY</a>
+                </td>
+                <td> | </td>
+                <td>
+                    <a href = "https://ide-bb0e524482e646d38a20b8e9678b2e33-8080.cs50.xyz/collection.html" style="color:black">COLLECTION</a>
+                </td>
+            </tr>
+        </table>
+
+    </head>
+
+    <body>
+        <div class="hero-image3">
+            <div class="popup" id="popup-txt">REVEAL ME</div>
+            <img class="popup-img" src="my_duck.jpg" alt="My Rubber Duck" width="500" height="452" >
+        </div>
+    </body>
+
+
+    <footer>
+        <p><a href="https://ide-bb0e524482e646d38a20b8e9678b2e33-8080.cs50.xyz/contact_us.html">Contact us</a></p>
+    </footer>
+
+</html>
+
