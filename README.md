@@ -45,10 +45,46 @@
 ## Week 4 Memory
 - Basic knowledge on Pointers, Memory Allocation, Call Stacks, Heap 
 
-### Filter
+### Filter Problem Set
 - Implement a program that applies various filters to BMPs
 - Command: ./filter -r image.bmp reflected.bmp
 
-### Recover
+### Recover Problem Set
 - Implement a program that recovers JPEGs from a forensic image
 - Command: ./recover card.raw
+
+## Week 5 Data Structures
+- Learn about Data Structures, binary search tree, Singly-Linked Lists, Hash Tables and Tries
+
+### Speller Problem Set
+- Implement a program that spell-checks a file using Hasg tables
+
+## Week 6 Python
+- Learn basic Python Programming Language
+
+### DNA Problem Set
+- Implement a program that identifies a person based on their DNA
+- Command: python dna.py databases/large.csv sequences/5.txt
+
+## Week 7 SQL
+- Learning basic on SQL
+
+### Movies Problem Set
+- Write SQL queries to answer questions about a IMDB's database of movies.
+
+### Fiftyville Problem Set
+- Write SQL queries to solve a mystery
+- <a href="https://cs50.harvard.edu/x/2021/psets/7/fiftyville/#:~:text=Write%20SQL%20queries%20to%20solve%20a%20mystery">More on Fiftyville mystery</a>
+
+## Week 8 HTML, CSS and JavaScript
+- Learn IP, TCP, HTTP, HTML, CSS and JavaScript
+
+### Homepage Problem Set
+- Welcome to my Rubber Duck Gallery Static Webpage
+
+## Week 9 Flask
+- Learning about Web-Application, AJAX, Model-View-Controller and Flask
+
+### Finance Problem Set
+- Implement a website via which users can “buy” and “sell” stocks
+- Using API with IEC Cloud to get stock price from symbol
