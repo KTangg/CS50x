@@ -88,3 +88,4 @@
 ### Finance Problem Set
 - Implement a website via which users can “buy” and “sell” stocks
 - Using API with IEC Cloud to get stock price from symbol
+- Command: $ flask run
